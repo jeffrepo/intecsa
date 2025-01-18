@@ -13,7 +13,7 @@
     'data': [
         'views/res_partner_views.xml',
         'data/paperformat_ticket.xml',
-        'views/report_financial.xml',
+        #'views/report_financial.xml',
         'views/account_journal_views.xml',
         'report/cotizacion_sale_order.xml',
         'report/report_hoja_servicios.xml',
