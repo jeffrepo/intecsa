@@ -71,7 +71,7 @@
                               			<t t-esc="l.product_id.name"/>
                               	</td>
                               	<td style="text-align:center">
-                                		<t t-esc="l.quantity_done" t-options="{&quot;widget&quot;: &quot;integer&quot;}"/>
+                                		<t t-esc="l.quantity" t-options="{&quot;widget&quot;: &quot;integer&quot;}"/>
                               	</td>
                             	</tr>
                           	</t>
@@ -166,7 +166,7 @@
                                               <t t-esc="l.product_id.name"/>
                                           </td>
                                           <td style="text-align:center; padding-left:5px;">
-                                              <t t-esc="l.quantity_done"/>
+                                              <t t-esc="l.quantity"/>
                                           </td>
 
                                       </tr>
