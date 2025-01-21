@@ -74,7 +74,7 @@
 
                         <div class="div_izquierdo_titulo" style="float:left; width:50%; text-align:center">
 
-                          <table style="width:100%">
+                          <table style="width:100%" class="table-borderless">
                             <tr>
                               <td style="text-aling:center"><strong>COTIZACIÓN</strong></td>
                               <td style="color:white">ㅤㅤㅤㅤ</td>
@@ -109,7 +109,7 @@
 
                       </div>
 
-                      <table style="width:100%;font-size:14px">
+                      <table style="width:100%;font-size:14px" class="table-borderless">
                         <tr style="background:#3D3D3D; color: WHITE">
                           <td style="border-left: 1px solid white; border-right: 1px solid white; text-align:center; padding-left: 8px; padding-right: 8px;"><strong>CANTIDAD</strong></td>
                           <td style="border-left: 1px solid white; border-right: 1px solid white; text-align:center; padding-left: 8px; padding-right: 8px;width:15%"><strong>CÓDIGO</strong></td>
@@ -162,7 +162,7 @@
                   </div>
                   <div class="footer">
                   	<hr/>
-                      <table style="width:100%">
+                      <table style="width:100%" class="table-borderless">
                         <tr style="text-align:center">
                           <td><img src="/intecsa/static/src/img/HikVision.png" style="width:70%;"/></td>
                           <td><img src="/intecsa/static/src/img/ZKTeco.png" style="width:60%;"/></td>
@@ -171,7 +171,7 @@
                         </tr>
                        </table>
                        <br/>
-                       <table style="width:100%">
+                       <table style="width:100%" class="table-borderless">
                         <tr style="text-align:center">
                           <td><img src="/intecsa/static/src/img/Ubiquiti.png" style="width:65%;"/></td>
                           <td><img src="/intecsa/static/src/img/Came.png" style="width:60%;"/></td>
