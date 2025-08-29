@@ -2,7 +2,7 @@
 <odoo>
     <data>
 
-      <record id="action_report_saleorder_intecsa" model="ir.actions.report">
+      <!-- <record id="action_report_saleorder_intecsa" model="ir.actions.report">
           <field name="name">Cotización</field>
           <field name="model">sale.order</field>
           <field name="report_type">qweb-pdf</field>
@@ -11,7 +11,7 @@
           <field name="print_report_name">'Cotización - %s' % (object.name)</field>
           <field name="binding_model_id" ref="sale.model_sale_order"/>
           <field name="binding_type">report</field>
-      </record>
+      </record> -->
 
       <!-- <record id="intecsa_hoja_servicios" model="ir.actions.report">
                 <field name="name">Imprimir Hoja de Servicios</field>
@@ -23,7 +23,7 @@
                 <field name="binding_type">report</field>
         </record> -->
 
-        <record id="intecsa_report_entrada_ajustes" model="ir.actions.report">
+        <!-- <record id="intecsa_report_entrada_ajustes" model="ir.actions.report">
                 <field name="name">Entrada de ajustes</field>
                 <field name="model">stock.picking</field>
                 <field name="report_type">qweb-pdf</field>
@@ -31,9 +31,9 @@
                 <field name="report_file">intecsa.report_entrada_ajustes</field>
                 <field name="binding_model_id" ref="stock.model_stock_picking"/>
                 <field name="binding_type">report</field>
-        </record>
+        </record> -->
 
-        <record id="intecsa_report_salida_ajustes" model="ir.actions.report">
+        <!-- <record id="intecsa_report_salida_ajustes" model="ir.actions.report">
                 <field name="name">Salida de ajustes</field>
                 <field name="model">stock.picking</field>
                 <field name="report_type">qweb-pdf</field>
@@ -41,9 +41,9 @@
                 <field name="report_file">intecsa.report_salida_ajustes</field>
                 <field name="binding_model_id" ref="stock.model_stock_picking"/>
                 <field name="binding_type">report</field>
-        </record>
+        </record> -->
 
-        <record id="intecsa_report_nota_entrega" model="ir.actions.report">
+        <!-- <record id="intecsa_report_nota_entrega" model="ir.actions.report">
                 <field name="name">Nota de entrega</field>
                 <field name="model">stock.picking</field>
                 <field name="report_type">qweb-pdf</field>
@@ -51,9 +51,9 @@
                 <field name="report_file">intecsa.report_nota_entrega</field>
                 <field name="binding_model_id" ref="stock.model_stock_picking"/>
                 <field name="binding_type">report</field>
-        </record>
+        </record> -->
 
-        <record id="intecsa_pago_entrada" model="ir.actions.report">
+        <!-- <record id="intecsa_pago_entrada" model="ir.actions.report">
                 <field name="name">Pago Entrada</field>
                 <field name="model">account.payment</field>
                 <field name="report_type">qweb-pdf</field>
@@ -61,9 +61,9 @@
                 <field name="report_file">intecsa.pago_entrada</field>
                 <field name="binding_model_id" ref="account.model_account_payment"/>
                 <field name="binding_type">report</field>
-        </record>
+        </record> -->
 
-        <record id="intecsa_pago_efectuado" model="ir.actions.report">
+        <!-- <record id="intecsa_pago_efectuado" model="ir.actions.report">
                 <field name="name">Pago Efectuado</field>
                 <field name="model">account.payment</field>
                 <field name="report_type">qweb-pdf</field>
@@ -71,10 +71,10 @@
                 <field name="report_file">intecsa.pago_efectuado</field>
                 <field name="binding_model_id" ref="account.model_account_payment"/>
                 <field name="binding_type">report</field>
-        </record>
+        </record> -->
 
 
-        <record id="report_comprobante_pago" model="ir.actions.report">
+        <!-- <record id="report_comprobante_pago" model="ir.actions.report">
             <field name="name">Comprobante de Pago</field>
             <field name="model">account.payment</field>
             <field name="report_type">qweb-pdf</field>
@@ -82,7 +82,7 @@
             <field name="report_file">intecsa.intecsa_comprobante_pago_wrapper</field>
             <field name="binding_model_id" ref="account.model_account_payment"/>
             <field name="binding_type">report</field>
-        </record>
+        </record> -->
 
         <!-- <record id="report_pos_session" model="ir.actions.report">
                 <field name="name">Reporte de Sesión POS</field>

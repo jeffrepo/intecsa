@@ -2,7 +2,7 @@
 
 {
     'name': 'Intecsa',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Hidden',
     'sequence': 6,
     'summary': 'Módulo para Intecsa',
@@ -15,17 +15,17 @@
         #'data/paperformat_ticket.xml',
         #'views/report_financial.xml',
         'views/account_journal_views.xml',
-        'report/cotizacion_sale_order.xml',
+        #'report/cotizacion_sale_order.xml',
         #'report/report_hoja_servicios.xml',
-        'report/report_entrada_ajustes.xml',
-        'report/report_salida_ajustes.xml',
-        'report/report_nota_entrega.xml',
-        'report/pago_entrada.xml',
-        'report/pago_efectuado.xml',
-        'report/comprobante_pago.xml',
+        #'report/report_entrada_ajustes.xml',
+        #'report/report_salida_ajustes.xml',
+        #'report/report_nota_entrega.xml',
+        #'report/pago_entrada.xml',
+        #'report/pago_efectuado.xml',
+        #'report/comprobante_pago.xml',
         #'report/pos_session_report.xml',
         'security/groups.xml',
-        'views/report.xml',
+        #'views/report.xml',
         'data/globatronics_report_data.xml',
         'views/sale_order_views.xml',
         'views/stock_picking_views.xml',
@@ -33,11 +33,11 @@
         'wizard/account_payment_register.xml'
         
     ],
-    'assets': {
-        'account_reports.assets_financial_report': [
-            'intecsa/static/src/scss/account_report_print.scss',
-        ]
-    },
+    # 'assets': {
+    #     'account_reports.assets_financial_report': [
+    #         'intecsa/static/src/scss/account_report_print.scss',
+    #     ]
+    # },
     'installable': True,
     'auto_install': False,
 }
