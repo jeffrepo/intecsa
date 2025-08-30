@@ -26,7 +26,7 @@
         #'report/pos_session_report.xml',
         'security/groups.xml',
         #'views/report.xml',
-        'data/globatronics_report_data.xml',
+        #'data/globatronics_report_data.xml',
         'views/sale_order_views.xml',
         'views/stock_picking_views.xml',
         'views/res_bank_views.xml',
